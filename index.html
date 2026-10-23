@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pavithra K. | Data Analytics Portfolio</title>
+<meta name="description" content="Portfolio of Pavithra K., Data Analyst and Power BI Developer.">
+<style>
+:root{--bg:#0b1020;--panel:#121a2d;--panel2:#17223a;--line:#26334d;--text:#eef4ff;--muted:#a6b4cc;--cyan:#5eead4;--blue:#7c9cff;--purple:#c4a7ff;--green:#8be0b0}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 80% 0%,#1b2b4d 0,transparent 36%),var(--bg);color:var(--text);font:15px/1.6 Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,sans-serif}a{color:inherit;text-decoration:none}button{font:inherit;cursor:pointer}.wrap{max-width:1180px;margin:auto;padding:0 24px}.nav{position:sticky;top:0;z-index:10;background:#0b1020eF;backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.navin{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:72px}.brand{font-weight:800;letter-spacing:.3px}.brand span{color:var(--cyan)}.navlinks{display:flex;gap:22px;color:var(--muted);font-size:13px}.navlinks a:hover{color:var(--cyan)}.pill{display:inline-flex;align-items:center;gap:8px;border:1px solid #32675f;background:#12312f;color:var(--cyan);border-radius:99px;padding:6px 11px;font-size:12px;font-weight:700}.dot{height:7px;width:7px;border-radius:50%;background:var(--green);display:inline-block}.hero{padding:70px 0 34px;display:grid;grid-template-columns:1.12fr .88fr;gap:38px;align-items:center}.eyebrow{color:var(--cyan);text-transform:uppercase;letter-spacing:2px;font-size:11px;font-weight:800}.hero h1{font-size:clamp(38px,5.5vw,66px);line-height:1.04;letter-spacing:-2.5px;margin:16px 0}.hero h1 em{font-style:normal;color:var(--cyan)}.hero p{color:var(--muted);font-size:17px;max-width:620px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin:26px 0}.btn{border:1px solid var(--line);border-radius:10px;padding:11px 16px;background:var(--panel);color:var(--text);font-weight:700;display:inline-flex;align-items:center;gap:8px}.btn.primary{background:var(--cyan);color:#09201f;border-color:var(--cyan)}.btn:hover{transform:translateY(-1px);filter:brightness(1.08)}.fine{font-size:12px;color:var(--muted)}.dash{border:1px solid #34415e;border-radius:18px;padding:18px;background:linear-gradient(145deg,#17223a,#10182a);box-shadow:0 24px 70px #0005;min-width:0}.dashhead{display:flex;justify-content:space-between;align-items:center;margin-bottom:18px}.dashhead b{font-size:13px}.mini{font-size:11px;color:var(--muted)}.metrics{display:grid;grid-template-columns:repeat(3,1fr);gap:9px}.metric{background:#0e1729;border:1px solid var(--line);padding:12px;border-radius:10px}.metric small{display:block;color:var(--muted);font-size:10px}.metric strong{font-size:19px;display:block;margin-top:5px}.metric span{color:var(--cyan);font-size:10px}.chartbox{margin-top:12px;background:#0e1729;border:1px solid var(--line);border-radius:10px;padding:13px}.charttitle{display:flex;justify-content:space-between;font-size:11px;color:var(--muted)}.bars{height:110px;display:flex;align-items:end;gap:9px;padding:12px 8px 0}.bar{flex:1;min-width:7px;border-radius:5px 5px 0 0;background:linear-gradient(180deg,var(--cyan),#3b82f6);opacity:.92}.bar:nth-child(3n){background:linear-gradient(180deg,var(--purple),#6d72ed)}.barlabels{display:flex;justify-content:space-between;color:#8292ad;font-size:9px;margin-top:5px}.section{padding:54px 0}.sectionhead{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:22px}.section h2{font-size:29px;letter-spacing:-.8px;margin:5px 0}.sub{color:var(--muted);max-width:650px;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.card{background:linear-gradient(150deg,var(--panel),#0f1728);border:1px solid var(--line);border-radius:15px;padding:20px;min-width:0;transition:transform .2s,border-color .2s}.card:hover{transform:translateY(-3px);border-color:#52688f}.cardtop{display:flex;justify-content:space-between;align-items:center;gap:10px}.iconbox{height:39px;width:39px;display:grid;place-items:center;border-radius:11px;background:#193c3b;color:var(--cyan);font-weight:900;font-size:18px}.tag{font-size:10px;color:var(--muted);border:1px solid var(--line);border-radius:99px;padding:4px 8px}.card h3{margin:16px 0 7px;font-size:17px}.card p{color:var(--muted);font-size:13px;margin:0 0 15px}.tags{display:flex;flex-wrap:wrap;gap:6px;margin:14px 0}.tags span{background:#202c43;color:#c5d4ed;border-radius:6px;padding:4px 7px;font-size:10px}.textlink{color:var(--cyan);font-size:12px;font-weight:800}.project-details{display:none;margin-top:12px;padding-top:12px;border-top:1px solid var(--line);color:var(--muted);font-size:12px}.project-details.open{display:block}.filters{display:flex;gap:8px;flex-wrap:wrap}.filter{background:var(--panel);border:1px solid var(--line);border-radius:99px;padding:7px 12px;color:var(--muted);font-size:12px}.filter.active{background:#173a38;border-color:#32675f;color:var(--cyan)}.skills{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.skill{border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:16px}.skill strong{display:block;margin-bottom:7px}.skill p{font-size:12px;color:var(--muted);margin:0}.timeline{border-left:1px solid #40516f;padding-left:22px;margin:16px 0}.timelineitem{position:relative;margin:0 0 20px}.timelineitem:before{content:"";position:absolute;left:-28px;top:7px;width:10px;height:10px;background:var(--cyan);border:3px solid var(--bg);border-radius:50%}.timelineitem h3{font-size:16px;margin:0}.timelineitem p{margin:4px 0;color:var(--muted);font-size:13px}.aboutgrid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.callout{border:1px solid #2f4c63;background:linear-gradient(135deg,#122b35,#131b30);border-radius:15px;padding:22px}.callout h3{margin-top:0}.callout p{color:var(--muted);font-size:13px}.contact{display:flex;align-items:center;justify-content:space-between;gap:20px;border:1px solid var(--line);border-radius:18px;padding:25px;background:linear-gradient(120deg,#162b3a,#15172e)}footer{border-top:1px solid var(--line);padding:24px 0;color:var(--muted);font-size:12px}.footin{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}.notice{font-size:11px;color:#93a3bd;margin-top:10px}.hide{display:none!important}
+
+.gallery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+.gallery-card{overflow:hidden;border:1px solid var(--line);border-radius:14px;background:linear-gradient(150deg,var(--panel),#0f1728);min-width:0}
+.shot-link{display:block;background:#080d19;border-bottom:1px solid var(--line);overflow:hidden}
+.shot-link img{display:block;width:100%;height:260px;object-fit:contain;transition:transform .25s}
+.shot-link:hover img{transform:scale(1.02)}
+.gallery-copy{padding:16px}.shot-number{color:var(--cyan);font-size:10px;font-weight:800;letter-spacing:1.2px}
+.gallery-copy h3{margin:6px 0;font-size:16px}.gallery-copy p{margin:0;color:var(--muted);font-size:12px}
+
+@media(max-width:850px){.hero{grid-template-columns:1fr;padding-top:48px}.dash{max-width:600px}.grid{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:1fr}.shot-link img{height:220px}.skills{grid-template-columns:repeat(2,1fr)}.navlinks{gap:12px}.aboutgrid{grid-template-columns:1fr}}
+@media(max-width:560px){.wrap{padding:0 16px}.navin{align-items:flex-start;padding:15px 0;flex-direction:column;gap:10px}.navlinks{width:100%;overflow:auto;padding-bottom:2px}.navlinks a{white-space:nowrap}.hero h1{letter-spacing:-1.5px}.grid{grid-template-columns:1fr}.gallery-grid{grid-template-columns:1fr}.shot-link img{height:200px}.skills{grid-template-columns:1fr 1fr}.sectionhead{align-items:flex-start;flex-direction:column}.metrics{grid-template-columns:1fr 1fr}.metric:last-child{display:none}.contact{align-items:flex-start;flex-direction:column}.section{padding:40px 0}}
+</style>
+</head>
+<body>
+<header class="nav"><div class="wrap navin"><a class="brand" href="#home">PAVITHRA<span>.</span>DATA</a><nav class="navlinks"><a href="#projects">Projects</a><a href="#hms-gallery">HMS Gallery</a><a href="#gallery">eSports Gallery</a><a href="#enterprise-gallery">Enterprise Gallery</a><a href="#skills">Skills</a><a href="#experience">Experience</a><a href="#about">About</a><a href="#contact">Contact</a></nav></div></header>
+<main>
+<section class="wrap hero" id="home">
+ <div><span class="pill"><i class="dot"></i> OPEN TO DATA OPPORTUNITIES</span><div class="eyebrow" style="margin-top:22px">Data Analytics · Business Intelligence</div>
+ <h1>Turning data into <em>decisions.</em></h1>
+ <p>Hi, I'm <strong>Pavithra K.</strong> I build analytical dashboards and data solutions that help make complex information easier to understand. My portfolio highlights hands-on work in Power BI, SQL, data validation, and database design.</p>
+ <div class="actions"><a class="btn primary" href="#projects">Explore my projects ↘</a><a class="btn" href="#contact">Contact me ↗</a></div><div class="fine">Target roles: Data Analyst · Power BI Developer</div></div>
+ <div class="dash" aria-label="Illustrative dashboard design"><div class="dashhead"><div><b>Analytics overview</b><div class="mini">Portfolio visual · illustrative data</div></div><span class="tag">DEMO VIEW</span></div>
+ <div class="metrics"><div class="metric"><small>Projects featured</small><strong>03</strong><span>Project collections</span></div><div class="metric"><small>Core focus</small><strong>BI</strong><span>Insights</span></div><div class="metric"><small>Toolset</small><strong>SQL</strong><span>Data layer</span></div></div>
+ <div class="chartbox"><div class="charttitle"><span>Monthly activity — sample visualization</span><span>Trend ↗</span></div><div class="bars"><div class="bar" style="height:34%"></div><div class="bar" style="height:47%"></div><div class="bar" style="height:39%"></div><div class="bar" style="height:61%"></div><div class="bar" style="height:54%"></div><div class="bar" style="height:76%"></div><div class="bar" style="height:68%"></div><div class="bar" style="height:91%"></div><div class="bar" style="height:80%"></div><div class="bar" style="height:100%"></div></div><div class="barlabels"><span>Jan</span><span>Mar</span><span>May</span><span>Jul</span><span>Sep</span><span>Dec</span></div></div>
+ <div class="chartbox"><div class="charttitle"><span>Workflow</span><span>End-to-end</span></div><div style="display:flex;gap:6px;align-items:center;margin-top:12px;flex-wrap:wrap"><span class="tag">Ingest</span><span style="color:var(--cyan)">→</span><span class="tag">Clean</span><span style="color:var(--cyan)">→</span><span class="tag">Model</span><span style="color:var(--cyan)">→</span><span class="tag">Visualize</span></div></div></div>
+</section>
+<section class="section"><div class="wrap"><div class="sectionhead"><div><div class="eyebrow">Selected work</div><h2>Projects that tell a story</h2><p class="sub">A mix of business intelligence reporting and structured database work.</p></div><div class="filters" role="group" aria-label="Filter projects"><button class="filter active" data-filter="all">All projects</button><button class="filter" data-filter="powerbi">Power BI</button><button class="filter" data-filter="sql">SQL & Data</button></div></div>
+<div class="grid" id="projects">
+<article class="card project" data-type="powerbi sql"><div class="cardtop"><div class="iconbox">▥</div><span class="tag">Healthcare analytics</span></div><h3>Stackly Hospital Management System</h3><p>Designed a healthcare analytics solution combining SQL data preparation and Power BI dashboards for operational visibility.</p><div class="tags"><span>Power BI</span><span>SQL</span><span>DAX</span><span>Data Modeling</span></div><button class="textlink detailsbtn" aria-expanded="false">View project details +</button><div class="project-details"><strong>Work covered</strong><ul><li>Created dashboard-focused SQL views and table structures.</li><li>Worked on data cleaning, validation rules, audit tables, triggers, and indexes.</li><li>Built reports for admissions and discharges, user insights, subscriptions, project insights, collaboration, patient feedback, and command-center monitoring.</li></ul><strong>Outcome</strong><p>Created a connected reporting workflow from database preparation through dashboard delivery. Dashboard screenshots are included in the Stackly HMS gallery below. Add measured business outcomes only when verified.</p></div></article>
+<article class="card project" data-type="sql"><div class="cardtop"><div class="iconbox">⌘</div><span class="tag">Database engineering</span></div><h3>ProLeague eSports India</h3><p>Designed a staged data workflow for a multi-module eSports dataset, focusing on data quality, relationships, and application database design.</p><div class="tags"><span>MySQL</span><span>Staging</span><span>Validation</span><span>ERD</span></div><button class="textlink detailsbtn" aria-expanded="false">View project details +</button><div class="project-details"><strong>Work covered</strong><ul><li>Analyzed multi-sheet source data and created staging tables across 12 modules.</li><li>Built an ER diagram and validation summary for completeness, uniqueness, references, and range/date checks.</li><li>Documented known source-data limitations rather than removing valid records without evidence.</li><li>Started the core application database phase with lookup and application tables.</li></ul><strong>Outcome</strong><p>Established a traceable foundation for data cleansing and relational database development. Add final Phase 2 results when confirmed.</p></div></article>
+<article class="card project" data-type="powerbi"><div class="cardtop"><div class="iconbox">◫</div><span class="tag">Business intelligence</span></div><h3>Power BI Dashboard Collection</h3><p>A collection of report pages designed to present KPIs, trends, and operational insights in an accessible format.</p><div class="tags"><span>Power BI</span><span>KPIs</span><span>Data Visualization</span><span>Reporting</span></div><button class="textlink detailsbtn" aria-expanded="false">View project details +</button><div class="project-details"><strong>Dashboard areas</strong><ul><li>Admissions and discharges</li><li>Subscription, user, project, and collaboration insights</li><li>Patient feedback and command-center monitoring</li></ul><strong>Next improvement</strong><p>Add approved screenshots, report objectives, and verified business impact to each dashboard case study.</p></div></article>
+</div><p class="notice">Project descriptions are based on details provided in conversation. Screenshots, published links, and quantified impact have not yet been supplied.</p>
+</div></section>
+
+<section class="section" id="hms-gallery"><div class="wrap">
+  <div class="eyebrow">Healthcare business intelligence</div><h2>Stackly HMS — Power BI Dashboard Collection</h2>
+  <p class="sub" style="margin-bottom:22px">Six report pages designed for hospital operations, staffing, finance, department performance, patient experience, and executive decision support. Select any screenshot to open it at full size.</p>
+  <div class="gallery-grid">
+    <article class="gallery-card">
+      <a class="shot-link" href="assets/stackly_hms_admission_discharge.png" target="_blank" rel="noopener" aria-label="Open Patient Admission & Discharge Overview full size"><img src="assets/stackly_hms_admission_discharge.png" alt="Stackly HMS Power BI dashboard: Patient Admission & Discharge Overview" loading="lazy"></a>
+      <div class="gallery-copy"><span class="shot-number">STACKLY HMS · 01</span><h3>Patient Admission & Discharge Overview</h3><p>Admissions, discharges, department trends, room types, length of stay, and discharge summary.</p></div>
+    </article>
+    <article class="gallery-card">
+      <a class="shot-link" href="assets/stackly_hms_staff_utilization.png" target="_blank" rel="noopener" aria-label="Open Doctor & Staff Utilization Metrics full size"><img src="assets/stackly_hms_staff_utilization.png" alt="Stackly HMS Power BI dashboard: Doctor & Staff Utilization Metrics" loading="lazy"></a>
+      <div class="gallery-copy"><span class="shot-number">STACKLY HMS · 02</span><h3>Doctor & Staff Utilization Metrics</h3><p>Staff distribution, appointment volumes, slot utilization, doctor performance, shifts, and lab activity.</p></div>
+    </article>
+    <article class="gallery-card">
+      <a class="shot-link" href="assets/stackly_hms_financial_insights.png" target="_blank" rel="noopener" aria-label="Open Financial Insights — Revenue, Expenses & Claims full size"><img src="assets/stackly_hms_financial_insights.png" alt="Stackly HMS Power BI dashboard: Financial Insights — Revenue, Expenses & Claims" loading="lazy"></a>
+      <div class="gallery-copy"><span class="shot-number">STACKLY HMS · 03</span><h3>Financial Insights — Revenue, Expenses & Claims</h3><p>Revenue collection, outstanding invoices, expense categories, payment modes, insurance providers, and claims.</p></div>
+    </article>
+    <article class="gallery-card">
+      <a class="shot-link" href="assets/stackly_hms_department_performance.png" target="_blank" rel="noopener" aria-label="Open Department Performance & Workload Analysis full size"><img src="assets/stackly_hms_department_performance.png" alt="Stackly HMS Power BI dashboard: Department Performance & Workload Analysis" loading="lazy"></a>
+      <div class="gallery-copy"><span class="shot-number">STACKLY HMS · 04</span><h3>Department Performance & Workload Analysis</h3><p>Department profitability, workload, procedures, room occupancy, critical case rates, and health scorecards.</p></div>
+    </article>
+    <article class="gallery-card">
+      <a class="shot-link" href="assets/stackly_hms_patient_feedback.png" target="_blank" rel="noopener" aria-label="Open Patient Satisfaction & Feedback Trends full size"><img src="assets/stackly_hms_patient_feedback.png" alt="Stackly HMS Power BI dashboard: Patient Satisfaction & Feedback Trends" loading="lazy"></a>
+      <div class="gallery-copy"><span class="shot-number">STACKLY HMS · 05</span><h3>Patient Satisfaction & Feedback Trends</h3><p>Patient ratings, NPS, wait times, complaint categories, clinical outcomes, vital alerts, and appointment status.</p></div>
+    </article>
+    <article class="gallery-card">
+      <a class="shot-link" href="assets/stackly_hms_executive_warroom.png" target="_blank" rel="noopener" aria-label="Open Executive War Room Command Center full size"><img src="assets/stackly_hms_executive_warroom.png" alt="Stackly HMS Power BI dashboard: Executive War Room Command Center" loading="lazy"></a>
+      <div class="gallery-copy"><span class="shot-number">STACKLY HMS · 06</span><h3>Executive War Room Command Center</h3><p>Hospital health, critical alerts, capacity, financial risk, patient experience, and executive priorities.</p></div>
+    </article>
+  </div>
+  <p class="notice">Screenshots and displayed figures are presented as supplied; metrics have not been independently audited.</p>
+</div></section>
+
+<section class="section" id="gallery"><div class="wrap">
+  <div class="eyebrow">Dashboard gallery</div><h2>ProLeague eSports — Power BI dashboards</h2>
+  <p class="sub" style="margin-bottom:22px">Screenshots supplied for the ProLeague project. Select any image to open the full-size view.</p>
+  <div class="gallery-grid">
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_01.png" target="_blank" rel="noopener" aria-label="Open full screenshot: Live Streaming & Engagement">
+          <img src="assets/proleague_01.png" alt="Live Streaming & Engagement Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 01</span>
+          <h3>Live Streaming & Engagement</h3><p>Stream volume, chat engagement, watch time, peak viewers, and recording health.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_02.png" target="_blank" rel="noopener" aria-label="Open full screenshot: Team Management — Overview">
+          <img src="assets/proleague_02.png" alt="Team Management — Overview Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 02</span>
+          <h3>Team Management — Overview</h3><p>Team status, city distribution, team wins and losses, and state footprint.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_03.png" target="_blank" rel="noopener" aria-label="Open full screenshot: Team Management — Performance">
+          <img src="assets/proleague_03.png" alt="Team Management — Performance Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 03</span>
+          <h3>Team Management — Performance</h3><p>Tournament activity, win-rate breakdown, and team performance detail table.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_04.png" target="_blank" rel="noopener" aria-label="Open full screenshot: Leaderboard Arena">
+          <img src="assets/proleague_04.png" alt="Leaderboard Arena Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 04</span>
+          <h3>Leaderboard Arena</h3><p>Top players, ranking milestones, and MVP impact by game.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_05.png" target="_blank" rel="noopener" aria-label="Open full screenshot: Leaderboard Insights">
+          <img src="assets/proleague_05.png" alt="Leaderboard Insights Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 05</span>
+          <h3>Leaderboard Insights</h3><p>Global versus regional rank analysis, leaderboard points distribution, and player performance matrix.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_06.png" target="_blank" rel="noopener" aria-label="Open full screenshot: Matchmaking Operations">
+          <img src="assets/proleague_06.png" alt="Matchmaking Operations Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 06</span>
+          <h3>Matchmaking Operations</h3><p>Queue outcomes, wait-time distribution, matching split, and network connectivity.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_07.png" target="_blank" rel="noopener" aria-label="Open full screenshot: User Management Dashboard">
+          <img src="assets/proleague_07.png" alt="User Management Dashboard Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 07</span>
+          <h3>User Management Dashboard</h3><p>User registrations, account and profile status, role distribution, and security method usage.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_08.png" target="_blank" rel="noopener" aria-label="Open full screenshot: User Management Insights">
+          <img src="assets/proleague_08.png" alt="User Management Insights Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 08</span>
+          <h3>User Management Insights</h3><p>Login behavior, 2FA adoption by role, and user distribution across states.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_09.png" target="_blank" rel="noopener" aria-label="Open full screenshot: Player Profile Dashboard">
+          <img src="assets/proleague_09.png" alt="Player Profile Dashboard Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 09</span>
+          <h3>Player Profile Dashboard</h3><p>Player skill ratings, win rate, ranking tiers, and skill progression.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_10.png" target="_blank" rel="noopener" aria-label="Open full screenshot: Player Profile Insights">
+          <img src="assets/proleague_10.png" alt="Player Profile Insights Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 10</span>
+          <h3>Player Profile Insights</h3><p>Player archetypes, performance quadrant, and MVP impact leaderboard.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_11.png" target="_blank" rel="noopener" aria-label="Open full screenshot: Tournament Management">
+          <img src="assets/proleague_11.png" alt="Tournament Management Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 11</span>
+          <h3>Tournament Management</h3><p>Tournament activity by game, regional footprint, and tournament format.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_12.png" target="_blank" rel="noopener" aria-label="Open full screenshot: Tournament Insights">
+          <img src="assets/proleague_12.png" alt="Tournament Insights Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 12</span>
+          <h3>Tournament Insights</h3><p>Tournament timeline, event mode, prize pool, bracket automation, and participant structure.</p>
+        </div>
+      </article>
+
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/proleague_13.png" target="_blank" rel="noopener" aria-label="Open full screenshot: Global eSports Insights">
+          <img src="assets/proleague_13.png" alt="Global eSports Insights Power BI dashboard screenshot" loading="lazy">
+        </a>
+        <div class="gallery-copy"><span class="shot-number">PROLEAGUE · 13</span>
+          <h3>Global eSports Insights</h3><p>High-level view of users, players, games, tournaments, geography, and ecosystem metrics.</p>
+        </div>
+      </article>
+  </div>
+  <p class="notice">These are portfolio screenshots supplied by Pavithra. Figures and labels are shown as presented in the screenshots; they have not been independently audited.</p>
+</div></section>
+<section class="section" id="enterprise-gallery"><div class="wrap">
+  <div class="eyebrow">Enterprise analytics</div><h2>ECWT — Enterprise Dashboard Collection</h2>
+  <p class="sub" style="margin-bottom:22px">Enterprise reporting pages covering productivity, workflows, AI usage, feedback, knowledge management, governance, and notifications. Select any screenshot to open it at full size.</p>
+  <div class="gallery-grid">
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_01_productivity.png" target="_blank" rel="noopener" aria-label="Open Productivity Metrics full size"><img src="assets/ecwt_01_productivity.png" alt="Productivity Metrics dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 01</span><h3>Productivity Metrics</h3><p>Department productivity, task completion, overdue workload, and efficiency scores.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_02_search_behaviour.png" target="_blank" rel="noopener" aria-label="Open Search Behaviour full size"><img src="assets/ecwt_02_search_behaviour.png" alt="Search Behaviour dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 02</span><h3>Search Behaviour</h3><p>Search engagement, query volume, role patterns, and department-level search activity.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_03_workflow_cycle_time.png" target="_blank" rel="noopener" aria-label="Open Workflow Cycle Time — Control Tower full size"><img src="assets/ecwt_03_workflow_cycle_time.png" alt="Workflow Cycle Time — Control Tower dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 03</span><h3>Workflow Cycle Time — Control Tower</h3><p>Cycle time, SLA breaches, workflow status, pending backlog, and departmental speed.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_04_ai_interaction_logs.png" target="_blank" rel="noopener" aria-label="Open AI Interaction Logs — Exploration full size"><img src="assets/ecwt_04_ai_interaction_logs.png" alt="AI Interaction Logs — Exploration dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 04</span><h3>AI Interaction Logs — Exploration</h3><p>AI model and department interaction paths, response time, and activity by day and hour.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_05_ai_interaction_overview.png" target="_blank" rel="noopener" aria-label="Open AI Interaction Logs — Adoption &amp; Feedback full size"><img src="assets/ecwt_05_ai_interaction_overview.png" alt="AI Interaction Logs — Adoption &amp; Feedback dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 05</span><h3>AI Interaction Logs — Adoption &amp; Feedback</h3><p>AI adoption, monthly interaction trend, model acceptance, and feedback split.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_06_usage_events.png" target="_blank" rel="noopener" aria-label="Open Usage Events full size"><img src="assets/ecwt_06_usage_events.png" alt="Usage Events dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 06</span><h3>Usage Events</h3><p>Event sources, monthly activity, notification engagement, latency, and status codes.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_07_feedback_analytics.png" target="_blank" rel="noopener" aria-label="Open Feedback Analytics — Overview full size"><img src="assets/ecwt_07_feedback_analytics.png" alt="Feedback Analytics — Overview dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 07</span><h3>Feedback Analytics — Overview</h3><p>Feedback sentiment, category trends, resolution health, and sample user feedback.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_08_feedback_department.png" target="_blank" rel="noopener" aria-label="Open Feedback Analytics — Department Detail full size"><img src="assets/ecwt_08_feedback_department.png" alt="Feedback Analytics — Department Detail dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 08</span><h3>Feedback Analytics — Department Detail</h3><p>Department breakdowns, reporter activity, resolution funnel, heatmap, and organization summary.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_09_prompt_analytics.png" target="_blank" rel="noopener" aria-label="Open Prompt Analytics — Usage full size"><img src="assets/ecwt_09_prompt_analytics.png" alt="Prompt Analytics — Usage dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 09</span><h3>Prompt Analytics — Usage</h3><p>Prompt volume, model distribution, prompt intent, category mix, and usage patterns.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_10_prompt_performance.png" target="_blank" rel="noopener" aria-label="Open Prompt Analytics — Performance full size"><img src="assets/ecwt_10_prompt_performance.png" alt="Prompt Analytics — Performance dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 10</span><h3>Prompt Analytics — Performance</h3><p>Prompt ratings, complexity-to-platform flow, model response time, and category success rates.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_11_executive_summary.png" target="_blank" rel="noopener" aria-label="Open Executive Summary — Enterprise Health full size"><img src="assets/ecwt_11_executive_summary.png" alt="Executive Summary — Enterprise Health dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 11</span><h3>Executive Summary — Enterprise Health</h3><p>Enterprise health, department rankings, capability contribution, and performance heatmap.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_12_knowledge_hub.png" target="_blank" rel="noopener" aria-label="Open Knowledge Hub — Content Health full size"><img src="assets/ecwt_12_knowledge_hub.png" alt="Knowledge Hub — Content Health dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 12</span><h3>Knowledge Hub — Content Health</h3><p>Document inventory, freshness, ratings, search effectiveness, and publication status.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_13_knowledge_detail.png" target="_blank" rel="noopener" aria-label="Open Knowledge Hub — Content Detail full size"><img src="assets/ecwt_13_knowledge_detail.png" alt="Knowledge Hub — Content Detail dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 13</span><h3>Knowledge Hub — Content Detail</h3><p>Word count, source-channel views, stale content, top articles, and department ownership.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_14_enterprise_intelligence.png" target="_blank" rel="noopener" aria-label="Open Enterprise Intelligence — Summary full size"><img src="assets/ecwt_14_enterprise_intelligence.png" alt="Enterprise Intelligence — Summary dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 14</span><h3>Enterprise Intelligence — Summary</h3><p>Executive insights, enterprise health index, monthly trend, and department targets.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_15_data_governance.png" target="_blank" rel="noopener" aria-label="Open Data Governance &amp; Health full size"><img src="assets/ecwt_15_data_governance.png" alt="Data Governance &amp; Health dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 15</span><h3>Data Governance &amp; Health</h3><p>Governance checks, critical issues, data completeness, control matrix, and weighted health score.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_16_notification_overview.png" target="_blank" rel="noopener" aria-label="Open Notification Effectiveness — Overview full size"><img src="assets/ecwt_16_notification_overview.png" alt="Notification Effectiveness — Overview dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 16</span><h3>Notification Effectiveness — Overview</h3><p>Channel read rates, response times, notification volume trend, and engagement KPIs.</p></div>
+      </article>
+      <article class="gallery-card">
+        <a class="shot-link" href="assets/ecwt_17_notification_detail.png" target="_blank" rel="noopener" aria-label="Open Notification Effectiveness — Detail full size"><img src="assets/ecwt_17_notification_detail.png" alt="Notification Effectiveness — Detail dashboard screenshot" loading="lazy"></a>
+        <div class="gallery-copy"><span class="shot-number">ECWT ENTERPRISE · 17</span><h3>Notification Effectiveness — Detail</h3><p>Read rate by notification type, response-time distribution, low-performing contributions, and key findings.</p></div>
+      </article>
+  </div>
+  <p class="notice">Screenshots and displayed figures are presented as supplied; metrics have not been independently audited.</p>
+</div></section>
+
+
+<section class="section" id="enterprise-additional"><div class="wrap">
+  <div class="eyebrow">Enterprise analytics · additional views</div><h2>Enterprise AI, Collaboration &amp; Executive Dashboards</h2>
+  <p class="sub" style="margin-bottom:22px">Additional views from the ECWT enterprise project, covering AI investment and ROI, file collaboration, department interactions, and an executive overview across the suite.</p>
+  <div class="gallery-grid">
+    <article class="gallery-card"><a class="shot-link" href="assets/enterprise_ai_investment_cost_usage.png" target="_blank" rel="noopener" aria-label="Open Enterprise AI Investment — Cost and Usage full size"><img src="assets/enterprise_ai_investment_cost_usage.png" alt="Enterprise AI Investment dashboard showing spend, interactions, tokens, model costs, and weekly spend trend" loading="lazy"></a><div class="gallery-copy"><span class="shot-number">ECWT · AI INVESTMENT</span><h3>Enterprise AI Investment — Cost &amp; Usage</h3><p>AI model spend, interactions, average call cost, token usage, acceptance outcomes, and weekly spending trends.</p></div></article>
+    <article class="gallery-card"><a class="shot-link" href="assets/enterprise_ai_investment_roi.png" target="_blank" rel="noopener" aria-label="Open Enterprise AI Investment — ROI full size"><img src="assets/enterprise_ai_investment_roi.png" alt="Enterprise AI Investment dashboard showing ROI, time saved, model efficiency, and department return" loading="lazy"></a><div class="gallery-copy"><span class="shot-number">ECWT · AI INVESTMENT</span><h3>Enterprise AI Investment — ROI &amp; Value</h3><p>Return on investment, time saved, value per interaction, model cost efficiency, and department-level ROI.</p></div></article>
+    <article class="gallery-card"><a class="shot-link" href="assets/file_document_collaboration_overview.png" target="_blank" rel="noopener" aria-label="Open File and Documentation Collaboration — Overview full size"><img src="assets/file_document_collaboration_overview.png" alt="File and Documentation Collaboration dashboard showing file activity, types, trends, and contributors" loading="lazy"></a><div class="gallery-copy"><span class="shot-number">ECWT · COLLABORATION</span><h3>File &amp; Documentation Collaboration — Overview</h3><p>File inventory, active-file percentage, upload/download/edit activity, file types, activity trends, and top contributors.</p></div></article>
+    <article class="gallery-card"><a class="shot-link" href="assets/file_document_collaboration_detail.png" target="_blank" rel="noopener" aria-label="Open File and Documentation Collaboration — Department Detail full size"><img src="assets/file_document_collaboration_detail.png" alt="File collaboration dashboard with department activity, collaboration intensity, file status, and shared files" loading="lazy"></a><div class="gallery-copy"><span class="shot-number">ECWT · COLLABORATION</span><h3>File &amp; Documentation Collaboration — Department Detail</h3><p>Department activity, collaboration intensity, file status, sharing patterns, and most-collaborated files.</p></div></article>
+    <article class="gallery-card"><a class="shot-link" href="assets/department_interaction_orbit.png" target="_blank" rel="noopener" aria-label="Open Department Interaction — Collaboration Orbit full size"><img src="assets/department_interaction_orbit.png" alt="Department Interaction Overview dashboard with strongest cross-department pulls and collaboration orbit" loading="lazy"></a><div class="gallery-copy"><span class="shot-number">ECWT · DEPARTMENT INTERACTION</span><h3>Department Interaction — Collaboration Orbit</h3><p>Cross-department interactions, strongest collaboration pairs, and an orbit view of how departments connect.</p></div></article>
+    <article class="gallery-card"><a class="shot-link" href="assets/department_interaction_matrix.png" target="_blank" rel="noopener" aria-label="Open Department Interaction — Matrix and Trends full size"><img src="assets/department_interaction_matrix.png" alt="Department interaction dashboard showing hub and siloed departments, action breakdown, matrix, and trend" loading="lazy"></a><div class="gallery-copy"><span class="shot-number">ECWT · DEPARTMENT INTERACTION</span><h3>Department Interaction — Matrix &amp; Trends</h3><p>Hub and siloed departments, involvement totals, action-type breakdown, department matrix, and interaction trend.</p></div></article>
+    <article class="gallery-card"><a class="shot-link" href="assets/enterprise_suite_overview.png" target="_blank" rel="noopener" aria-label="Open Enterprise Collaboration Workflow AI Tool — Overview full size"><img src="assets/enterprise_suite_overview.png" alt="Enterprise Collaboration Workflow AI Tool overview dashboard with workflow, AI ROI, files, notifications, and data health" loading="lazy"></a><div class="gallery-copy"><span class="shot-number">ECWT · EXECUTIVE OVERVIEW</span><h3>Enterprise Suite — KPI Overview</h3><p>A consolidated view of workflow volume, AI ROI, notification read rate, active files, data health, and department involvement.</p></div></article>
+    <article class="gallery-card"><a class="shot-link" href="assets/enterprise_suite_executive_insights.png" target="_blank" rel="noopener" aria-label="Open Enterprise Collaboration Workflow AI Tool — Executive Insights full size"><img src="assets/enterprise_suite_executive_insights.png" alt="Enterprise Collaboration Workflow AI Tool executive insights dashboard showing department health, AI trend, activity, and alerts" loading="lazy"></a><div class="gallery-copy"><span class="shot-number">ECWT · EXECUTIVE OVERVIEW</span><h3>Enterprise Suite — Executive Insights</h3><p>Department health, AI trends, overall platform activity, and executive alerts for governance, workflow, collaboration, notifications, and investment.</p></div></article>
+  </div>
+  <p class="notice">Screenshots and displayed figures are presented as supplied; metrics have not been independently audited.</p>
+</div></section>
+
+<section class="section"><div class="wrap"><div class="aboutgrid">
+  <div class="card"><div class="cardtop"><div class="iconbox">HMS</div><span class="tag">Healthcare analytics</span></div><h3>Stackly Hospital Management System</h3><p>Six Power BI report pages covering patient flow, staffing, finance, department performance, patient feedback, and executive monitoring.</p></div>
+  <div class="card"><div class="cardtop"><div class="iconbox">ENT</div><span class="tag">Enterprise analytics</span></div><h3>Enterprise Dashboard Project</h3><p>Includes the ECWT dashboard collection for productivity, workflow control, search, AI interaction, usage events, feedback, prompt analytics, knowledge management, enterprise health, governance, and notifications, AI investment and ROI, file collaboration, department interactions, and executive suite overview.</p></div>
+</div></div></section>
+
+<section class="section" id="skills"><div class="wrap"><div class="eyebrow">Capabilities</div><h2>Tools I work with</h2><p class="sub" style="margin-bottom:22px">A practical toolkit for moving from raw data to useful reporting.</p><div class="skills">
+<div class="skill"><strong>Power BI</strong><p>Dashboard design, report pages, KPI visuals, data storytelling</p></div>
+<div class="skill"><strong>SQL / MySQL</strong><p>DDL, joins, views, constraints, validation, query-based analysis</p></div>
+<div class="skill"><strong>Data Preparation</strong><p>Staging tables, cleansing, completeness and reference checks</p></div>
+<div class="skill"><strong>Data Modeling</strong><p>ER diagrams, keys, relationships, lookup and application tables</p></div>
+<div class="skill"><strong>DAX</strong><p>Measures and calculations — include only techniques you can confidently discuss</p></div>
+<div class="skill"><strong>Excel</strong><p>Source-data review and structured dataset analysis</p></div>
+<div class="skill"><strong>ETL & Quality</strong><p>Ingestion workflows, validation rules, auditability</p></div>
+<div class="skill"><strong>Documentation</strong><p>Technical notes, validation summaries, delivery documentation</p></div>
+</div><p class="notice">Please edit this skills section to reflect your current confidence level; no proficiency ratings are claimed.</p></div></section>
+<section class="section" id="experience"><div class="wrap"><div class="eyebrow">Career</div><h2>Experience & education</h2><div class="aboutgrid"><div class="card"><div class="timeline"><div class="timelineitem"><h3>Power BI Developer · Stackly</h3><p>01 Oct 2025 – Present</p><p>Dashboard development, SQL views and data preparation, validation, and reporting delivery for the HMS project.</p></div><div class="timelineitem"><h3>Education</h3><p>Master's degree in ECE — Communication Systems</p><p>K. Ramakrishnan College of Engineering · 2020</p></div></div></div><div class="callout"><h3>My approach</h3><p>I focus on making data reliable, organized, and understandable — from validating source records and structuring relational data to designing dashboards that communicate the key information clearly.</p><p><strong>Career focus:</strong> Data Analyst and Power BI Developer opportunities.</p></div></div><p class="notice">Employment start date and education details have been updated from the information provided. Add any earlier roles only if you want them included.</p></div></section>
+<section class="section" id="about"><div class="wrap"><div class="eyebrow">A little about me</div><h2>Curious about data. Focused on clarity.</h2><div class="aboutgrid"><p class="sub">With an ECE postgraduate background and hands-on experience in Power BI development, I bring a structured problem-solving mindset to analytics work. I enjoy connecting data preparation, relational design, and visual reporting so stakeholders can explore information with confidence.</p><div class="card"><h3>What I bring</h3><div class="tags"><span>Structured problem-solving</span><span>Data quality mindset</span><span>Visual communication</span><span>Documentation</span><span>Continuous learning</span></div></div></div></div></section>
+<section class="section" id="contact"><div class="wrap"><div class="contact"><div><div class="eyebrow">Let's connect</div><h2 style="margin:6px 0">Have a data challenge?</h2><p class="sub">I'm interested in Data Analyst and Power BI Developer opportunities.</p><p class="notice">Email and LinkedIn are ready. Resume, Stackly HMS, ProLeague eSports, and Enterprise dashboard galleries are included.</p></div><div class="actions" style="margin:0"><a class="btn primary" href="mailto:pavithrav0704@gmail.com">Email me ↗</a><a class="btn" href="https://www.linkedin.com/in/pavithra-k-4a9664361" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a><a class="btn" href="assets/Pavithra_K_Resume.pdf" target="_blank" rel="noopener">View resume ↗</a><a class="btn" href="assets/Pavithra_K_Resume.pdf" download>Download resume ↓</a><a class="btn" href="#home">Back to top ↑</a></div></div><div class="notice">Resume download and all three dashboard galleries (Stackly HMS, ProLeague eSports, and Enterprise) are available in this portfolio bundle.</div></div></section>
+</main>
+<footer><div class="wrap footin"><span>© <span id="year"></span> Pavithra K. · Data Analytics Portfolio</span><span>Built to showcase projects, process, and potential.</span></div></footer>
+<script>
+document.getElementById('year').textContent=new Date().getFullYear();
+const filters=[...document.querySelectorAll('.filter')], projects=[...document.querySelectorAll('.project')];
+filters.forEach(btn=>btn.addEventListener('click',()=>{filters.forEach(b=>b.classList.toggle('active',b===btn));const f=btn.dataset.filter;projects.forEach(p=>p.classList.toggle('hide',f!=='all'&&!p.dataset.type.split(' ').includes(f)))}));
+document.querySelectorAll('.detailsbtn').forEach(btn=>btn.addEventListener('click',()=>{const d=btn.nextElementSibling;const open=d.classList.toggle('open');btn.textContent=open?'Hide project details −':'View project details +';btn.setAttribute('aria-expanded',String(open))}));
+
+</script>
+</body>
+</html>
